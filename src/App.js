@@ -15,7 +15,7 @@ function App() {
     setMenuItems(newItems);
   };
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState(allCategories);
+  const [categories] = useState(allCategories);
   return (
     <main>
       <section className="menu section">
