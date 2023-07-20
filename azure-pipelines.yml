@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: myagent
+  name: myagent
+  vmImage: SAQIB
 
 steps:
 - task: NodeTool@0
